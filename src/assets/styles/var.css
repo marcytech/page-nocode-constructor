@@ -12,4 +12,27 @@
   --light-grey: #EEF4F3;
   --red-soft: #EC7B7B;
   --white: #FFFFFF;
+
+  --title-color: #000;
+  --title-font-size-primary: 2.4em;
+
+  --fam-buttom-primary-background: #ff7139;
+  --fam-buttom-primary-color: #fff;
+  --fam-buttom-primary-border-color: var(--fam-buttom-primary-background);
+
+
+  --title-font-size-primary: 2.4em;
+
+
+  --text-input-background: #fff;
+  --text-input-text-color: #000;
+  --text-input-border-width: 0;
+  --text-input-label-color: #fff;
+
+
+  --secondary-soft-light: #ff7139;
+  --secondary-soft: #fff;
+
+
+
 }

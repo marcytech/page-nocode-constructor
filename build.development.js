@@ -40,11 +40,11 @@ const runBuild = async () => {
         target: "./dist",
         copyWithFolder: false, // will copy "images" folder with all files inside
       }),
-      // copy({
-      //   source: ["./src/assets"],
-      //   target: "./dist",
-      //   copyWithFolder: true, // will copy "images" folder with all files inside
-      // }),
+      copy({
+        source: ["./src/assets"],
+        target: "./dist",
+        copyWithFolder: true, // will copy "images" folder with all files inside
+      }),
       classModules()
     ],
     supported: {

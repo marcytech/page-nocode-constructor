@@ -1,9 +1,8 @@
-
+@import url('fam-code-ui/dist/main.css');
 @import url('./var.css');
 @import url('./reset.css');
 @import url('./grid.css');
 @import url('./global.css');
-@import url('fam-code-ui/dist/main.css');
 
 
 body {

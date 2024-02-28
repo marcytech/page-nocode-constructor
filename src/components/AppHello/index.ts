@@ -1,9 +1,9 @@
-import { FamButton } from 'fam-code-ui';
+import { FamButton } from "fam-code-ui";
 import { html, css } from "iares";
 
-const template = ({ props }) => html`
+const template = () => html`
   <div class="wrap-ctx">
-    <h1>Hello Word, ${props?.title}!</h1>
+    <h1>Hello Word</h1>
 
 <${FamButton}>
     <slot target="content">
@@ -15,11 +15,10 @@ const template = ({ props }) => html`
   </div>
 `;
 
-export const AppHello = ({ props }) => {
+export const AppHello = () => {
   return {
     template,
     styles,
-    props
   };
 };
 

@@ -9,8 +9,10 @@ body {
   display: flex;
   width: 100%;
   height: auto;
-  min-height:100vh;
-  background: var(--light-grey)
+  min-height: 100vh;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(93deg, rgba(255, 255, 255, 1) 0%, rgba(216, 234, 254, 1) 19%, rgba(232, 245, 254, 1) 35%);
+
 }
 
 router-view {
